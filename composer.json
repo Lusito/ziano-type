@@ -3,7 +3,10 @@
     "description": "ZianoType is a template engine for PHP that is inspired by the react JSX syntax.",
     "version": "0.8",
     "keywords": [
-        "templating"
+        "template",
+        "templating",
+        "jsx",
+        "react"
     ],
     "homepage": "https://github.com/lusito/ziano-type",
     "license": "Zlib",
