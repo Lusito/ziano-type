@@ -1,0 +1,29 @@
+{
+    "name": "lusito/ziano-type",
+    "description": "ZianoType is a template engine for PHP that is inspired by the react JSX syntax.",
+    "version": "0.8",
+    "keywords": [
+        "templating"
+    ],
+    "homepage": "https://github.com/lusito/ziano-type",
+    "license": "Zlib",
+    "authors": [{
+            "name": "Santo Pfingsten",
+            "email": "core@lusito.info",
+            "homepage": "https://github.com/lusito",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/lusito/ziano-type/issues",
+        "source": "https://github.com/lusito/ziano-type"
+    },
+    "require": {
+        "php": "^7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lusito\\ZianoType\\": "src/"
+        }
+    }
+}

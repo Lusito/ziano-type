@@ -1,0 +1,15 @@
+<ul>
+    <z for-each="$children as $child">
+        <li>
+            <z if="isset($child['href'])">
+                <a href="{$child['href']}">{$child['label']}</a>
+            </z>
+            <z else>
+                {$child['label']}
+            </z>
+            <z if="isset($child['children']) && !empty($child['children'])">
+                <z include="menu/node.html" children="{$child['children']}" />
+            </z>
+        </li>
+    </z>
+</ul>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>$pageTitle - $siteTitle</title>
+        <base href="$basepath">
+        <z render="scripts" />
+        <z render="stylesheets" />
+    </head>
+    <body>
+        <z include="menu/menu.html" children="$menuItems" />
+        <div id="mainwrapper">
+            <z include="page/header.html" pageTitle="$pageTitle" siteTitle="$siteTitle" />
+            <main>
+                <z render="innerHTML" />
+            </main>
+            <z include="page/footer.html" copyrightNotice="$copyrightNotice" />
+        </div>
+    </body>
+</html>
